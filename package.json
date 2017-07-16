@@ -1,0 +1,28 @@
+{
+  "name": "bitshares-trading-bot",
+  "version": "1.0.0",
+  "description": "Test trading on bitshares.openledger.info",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlidEnergy/bitshares-trading-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlidEnergy/bitshares-trading-bot/issues"
+  },
+  "homepage": "https://github.com/SlidEnergy/bitshares-trading-bot#readme",
+  "dependencies": {
+    "log4js": "^2.1.0",
+    "node-schedule": "^1.2.3",
+    "openledger_nodejs_api": "git+https://github.com/slidenergy/openledger_nodejs_api.git"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.13",
+    "typescript": "^2.4.1"
+  }
+}

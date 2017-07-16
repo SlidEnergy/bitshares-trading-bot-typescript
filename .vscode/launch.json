@@ -1,0 +1,26 @@
+{
+	// Use IntelliSense to learn about possible Node.js debug attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Trade index.ts",
+			"type": "node",
+			"request": "launch",
+            "preLaunchTask": "tsc",
+			"program": "${workspaceRoot}/index.ts",
+			"args": ["-debug", "-trade"],
+			"outFiles": ["${workspaceRoot}/bin/*.js"]
+		},
+		{
+			"name": "Debug index.ts",
+			"type": "node",
+			"request": "launch",
+            "preLaunchTask": "tsc",
+			"program": "${workspaceRoot}/index.ts",
+			"args": ["-debug"],
+			"outFiles": ["${workspaceRoot}/bin/*.js"]
+		}
+	]
+}
